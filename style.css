@@ -98,6 +98,10 @@ a.issue-button,a.issue-button:link,a.issue-button:visited,a.issue-button:active 
     background: #668a19;
 }
 
+.sparkline .line {
+    stroke: #ddd;
+}
+
 .project-issue tr td,.project-issue tr td.active {
     background-color: #555;
     border-top: 2px solid #cccccc;
