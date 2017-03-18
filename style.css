@@ -1,0 +1,334 @@
+body {
+    color: #b9b9b9;
+    background-color: #222529;
+}
+
+a,a:visited,a:active {
+    color: #81cfff;
+    text-decoration: none;
+}
+
+a:hover,a:focus {
+    color: #81cfff;
+    text-decoration: underline;
+}
+
+a.dreditor-application-toggle {
+    background-color: #222529;
+}
+
+th a,th a:link,th a:visited {
+    color: #71bbe8;
+}
+
+th.active {
+    background: #222;
+}
+
+
+.form-text,.form-textarea,
+ input,textarea,select {
+    background-color: #222529;
+    color: #ccc;
+}
+
+#nav-header .block-search .form-submit {
+  background-color: inherit;
+}
+
+
+h1, .h1, .view-drupalorg-supporters h2 {
+    color: #ccc;
+}
+
+#tabs ul.tabs li a, .drupalorg-site-api ul.tabs li a {
+    color: #a4c166;
+}
+
+#nav-content ul {
+    border-bottom: 1px solid #666;
+}
+
+#nav-content ul li a {
+    color: #83d0ff;
+}
+
+#nav-content li.active a.active,#nav-content li.active-parent a,#nav-content li a:hover,#nav-content li a:focus,#nav-content li.active-parent a {
+    color: #b9b9b9;
+}
+
+@media (min-width: 47.5em) {
+    #nav-content li.active,#nav-content li.active-parent a {
+        background-color:#333;
+        border: 1px solid #666;
+        border-bottom: 0;
+    }
+}
+
+
+
+#aside .block,#sidebar-first .block {
+    background: #111519;
+    color: #b9b9b9;
+}
+
+#block-project-issue-issue-metadata .field {
+    border-bottom: 1px solid #444;
+    color: #ddd;
+}
+
+#block-project-issue-issue-metadata .flag-project-issue-follow {
+    background: #222529;
+}
+
+#block-project-issue-issue-metadata #project-issue-jumplinks {
+    background: #222529;
+}
+
+#block-project-issue-issue-metadata #project-issue-jumplinks a {
+    color: #81cfff;
+}
+
+.flag-project-issue-follow .flag-tracker-count {
+    color: #999;
+}
+
+a.issue-button,a.issue-button:link,a.issue-button:visited,a.issue-button:active {
+    color: #ddd;
+    background: #668a19;
+}
+
+.project-issue tr td,.project-issue tr td.active {
+    background-color: #555;
+    border-top: 2px solid #cccccc;
+}
+
+.project-issue tr td.active {
+    background-color: white;
+    border-top: 2px solid #6d6d6d;
+}
+
+.project-issue tr.state-1 td {
+    background-color: #2b2b2b;
+    border-top: 2px solid #6d6d6d;
+}
+
+.project-issue tr.state-1 td.active {
+    background-color: #404040;
+    border-top: 2px solid #6d6d6d;
+}
+
+.project-issue tr.state-1 td:last-child {
+    border-right: 6px solid #adadad;
+}
+
+.field-issue-status-1,.project-issue tr.state-1,.project-issue-status-1 a {
+    background-color: #6d6d6d;
+}
+
+.project-issue-status-1 a {
+    color: #111;
+}
+
+.project-issue tr.state-2 td {
+    background-color: #213a23;
+    border-top: 2px solid #5b8254;
+}
+
+.project-issue tr.state-2 td.active {
+    background-color: #325834;
+    border-top: 2px solid #5b8254;
+}
+
+.project-issue tr.state-2 td:last-child {
+    border-right: 6px solid #83bb79;
+}
+
+#block-project-issue-issue-metadata .field-issue-status-2 {
+    background-color: #325834;
+    border-bottom: 2px solid #83bb79;
+}
+
+.field-issue-status-2,.project-issue tr.state-2,.project-issue-status-2 a {
+    background-color: #325834;
+}
+
+.project-issue tr.state-3 td,.project-issue tr.state-4 td,.project-issue tr.state-5 td,.project-issue tr.state-6 td,.project-issue tr.state-16 td,.project-issue tr.state-17 td {
+    background-color: #2b415f;
+    border-top: 2px solid #5b7dad;
+}
+
+.project-issue tr.state-3 td.active,.project-issue tr.state-4 td.active,.project-issue tr.state-5 td.active,.project-issue tr.state-6 td.active,.project-issue tr.state-16 td.active,.project-issue tr.state-17 td.active {
+    background-color: #324b6d;
+    border-top: 2px solid #4988fe;
+}
+
+.project-issue tr.state-3 td:last-child,.project-issue tr.state-4 td:last-child,.project-issue tr.state-5 td:last-child,.project-issue tr.state-6 td:last-child,.project-issue tr.state-16 td:last-child,.project-issue tr.state-17 td:last-child {
+    border-right: 6px solid #4795ff;
+}
+
+.field-issue-status-3,.field-issue-status-4,.field-issue-status-5,.field-issue-status-6,.project-issue tr.state-3,.project-issue-status-3 a,.project-issue tr.state-4,.project-issue-status-4 a,.project-issue tr.state-5,.project-issue-status-5 a,.project-issue tr.state-6,.project-issue-status-6 a {
+    background-color: #4988fe;
+}
+
+.project-issue tr.state-3,.project-issue-status-3 a,.project-issue-status-4 a,.project-issue-status-5 a,.project-issue-status-6 a {
+    color: #111;
+}
+
+.project-issue tr.state-7 td,.project-issue tr.state-18 td {
+    background-color: #461b2f;
+    border-top: 2px solid #823358;
+}
+
+.project-issue tr.state-7 td.active,.project-issue tr.state-18 td.active {
+    background-color: #351725;
+    border-top: 2px solid #b33570;
+}
+
+.project-issue tr.state-7 td:last-child,.project-issue tr.state-18 td:last-child {
+    border-right: 6px solid #da1a74;
+}
+
+.field-issue-status-7,.project-issue tr.state-7,.project-issue-status-7 a {
+    background-color: #b33570;
+}
+
+.project-issue-status-7 a {
+    color: #111;
+}
+
+.project-issue tr.state-8 td {
+    background-color: #4a340e;
+    border-top: 2px solid #af8939;
+}
+
+.project-issue tr.state-8 td.active {
+    background-color: #674d16;
+    border-top: 2px solid #ffb404;
+}
+
+.project-issue tr.state-8 td:last-child {
+    border-right: 6px solid #ffb404;
+}
+
+#block-project-issue-issue-metadata .field-issue-status-8 {
+    background-color: #674d16;
+    border-bottom: 2px solid #ffb404;
+}
+
+.field-issue-status-8,.project-issue tr.state-8,.project-issue-status-8 a {
+    background-color: #ffb404;
+}
+
+.project-issue-status-8 a {
+    color: #111;
+}
+
+.project-issue tr.state-13 td {
+    background-color: #461c14;
+    border-top: 2px solid #c5563e;
+}
+
+.project-issue tr.state-13 td.active {
+    background-color: #672d20;
+    border-top: 2px solid #ff4300;
+}
+
+.project-issue tr.state-13 td:last-child {
+    border-right: 6px solid #ff4300;
+}
+
+.field-issue-status-13,.project-issue tr.state-13,.project-issue-status-13 a {
+    background-color: #ff4300;
+}
+
+.project-issue-status-13 a {
+    color: #111;
+}
+
+.project-issue tr.state-14 td {
+    background-color: #213a23;
+    border-top: 2px solid #5b8254;
+}
+
+.project-issue tr.state-14 td.active {
+    background-color: #325834;
+    border-top: 2px solid #5b8254;
+}
+
+.project-issue tr.state-14 td:last-child {
+    border-right: 6px solid #83bb79;
+}
+
+#block-project-issue-issue-metadata .field-issue-status-14 {
+    background-color: #325834;
+    border-bottom: 2px solid #83bb79;
+}
+
+.field-issue-status-2,.project-issue tr.state-14,.project-issue-status-14 a {
+    background-color: #325834;
+}
+
+.project-issue-status-14 a {
+    color: #111;
+}
+
+table.sticky-header {
+    background-color: #111;
+}
+
+tr.odd {
+    background-color: #444;
+}
+
+.field-type-nodechanges-revision-diff table tr.even,.field-type-nodechanges-revision-diff table tr.odd {
+    background: #111519;
+}
+
+ul.pager a {
+    color: #81cfff;
+}
+
+.nodechanges-field-changes {
+    background: #222;
+}
+
+.field-type-nodechanges-revision-diff table {
+    color: #aaa;
+    font-size: 0.92308em;
+}
+
+.comment .submitted .attribution-label {
+    background: #555;
+    color: #ccc;
+}
+
+#content .submitted,#content .modified,#aggregator .feed-item-meta,#content .comment .links {
+    color: #999;
+}
+
+
+fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
+    background: #2e3238;
+}
+
+#footer {
+    background-color: #23282b;
+}
+
+#footer .block:last-child .block-inner {
+    border-top: 1px solid #555;
+}
+
+#block-drupalorg-crosssite-drupalorg-footer li:first-child a {
+    color: #ccc;
+}
+
+.comment.system-message .content {
+    background: #111519;
+    color: #bbb;
+}
+
+.marker,.form-required {
+    color: #ff7575;
+}
