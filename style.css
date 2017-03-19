@@ -25,10 +25,10 @@ th.active {
     background: #222;
 }
 
-
 .form-text,.form-textarea,
  input,textarea,select {
     background-color: #222529;
+    border: 1px solid #515861;
     color: #ccc;
 }
 
@@ -311,6 +311,34 @@ ul.pager a {
     color: #999;
 }
 
+div.codeblock,pre.codeblock,pre[class*="language-"],pre.cke_widget_element {
+    background-color: #000;
+    color: #8e8e8e;
+}
+
+.token.operator,.token.entity,.token.url,.language-css .token.string,.style .token.string,.token.punctuation {
+    color: #ccc;
+}
+
+.token.atrule,.token.function {
+    color: #0b81d0;
+}
+
+.token.regex,.token.attr-value,.token.important,.token.variable {
+    color: #61bffa;
+}
+
+.token.selector,.token.attr-name,.token.string,.token.char,.token.builtin,.token.inserted {
+    color: #48c322;
+}
+
+.token.keyword {
+    color: #d5dfe6;
+}
+
+:not(pre) > code[class*="language-"] {
+    background: #000;
+}
 
 fieldset:not(.filter-wrapper):not(.vertical-tabs-pane):not(#edit-advanced) {
     background: #2e3238;
